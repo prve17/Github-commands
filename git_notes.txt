@@ -19,4 +19,5 @@ git remote add origin https://github.com/prve17/test.git
 
 Here in above code , git is a remote repo in which add a file named origin on the location that is given link.
 
-git remote add origin https://github.com/prve17/testing.git
+git branch -m branch_name (use to change branch on remote area from main to master and master to main)
+git push -u origin branch_name (use to upload our code on main or master branch of remote area)
