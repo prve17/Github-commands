@@ -1,0 +1,22 @@
+git --version (to check version)
+git confg --list(to check identity list)
+git config --g user.name "username" (adding username to git)
+git config --g user.email "abc@gmail.com"(adding user email to git)
+
+git init (adding git to that folder ..means intialize git in that folder)
+git status (to check the status .. is it added or committed or not)
+git add --a/git add .(means send file from working area to staging area)
+git add file1 file2 file3 (add more than two files on staging area)
+git add [filename] (means send some particular file from working area to staging area)
+git rm --cached [filename](unsend file from staging area)
+git commit -m "first commit"(send files on git repo)
+
+ssh-keygen(to generate keys)
+eval "$(ssh-agent -s)"
+cat ~/.ssh/id_rsa.pub
+
+git remote add origin https://github.com/prve17/test.git
+
+Here in above code , git is a remote repo in which add a file named origin on the location that is given link.
+
+git remote add origin https://github.com/prve17/testing.git
