@@ -19,6 +19,8 @@ git remote add origin https://github.com/prve17/test.git
 
 Here in above code , git is a remote repo in which add a file named origin on the location that is given link.
 
-git branch -m branch_name (use to change branch on remote area from main to master and master to main)
+git branch -m branch_name (use to make branch on remote area and also change from one to another)
 git push -u origin branch_name (use to upload our code on main or master branch of remote area)
 git checkout -b "branch_name" (to make new branch and switch to that branch parallely)
+
+Note:Git branch creates the branch but you remain in the current branch that you have checked out. git checkout -b creates a branch and checks it out.
