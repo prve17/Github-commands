@@ -21,3 +21,4 @@ Here in above code , git is a remote repo in which add a file named origin on th
 
 git branch -m branch_name (use to change branch on remote area from main to master and master to main)
 git push -u origin branch_name (use to upload our code on main or master branch of remote area)
+git checkout -b "branch_name" (to make new branch and switch to that branch parallely)
